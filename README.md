@@ -46,3 +46,14 @@ I then used Remote Desktop to log into the Windows Server 2022 virtual machine a
 I then set "Azeruser" virtual machine's DNS settings to the Windows Server 2022's private IP address (10.1.0.6) so that they are on the same network and the Windows Server 2022 will act as a domain controller. 
 </p>
 <br />
+
+![image](https://github.com/user-attachments/assets/11903d9a-03f3-4473-8a12-60d55b9ed485)
+
+I then logged into the Windows 10 Pro virtual machine and sent a ping via Powershell to the "domain controller's" private IP address, which showed me that it was a successful ping and there is connectivity. 
+
+![image](https://github.com/user-attachments/assets/3a30c221-d1a6-4a6e-8569-c8199a90e25a)
+
+From Powershell I ran ipconfig /all and the output for the DNS settings should show DC-1’s private IP Address and I confirmed this with what Powershell showed me.
+
+
+ 
