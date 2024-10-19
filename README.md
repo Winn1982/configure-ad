@@ -31,22 +31,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/user-attachments/assets/b4103fc3-8e16-4893-a1d4-f60ceaddd615)
 
-I created a Windows Server 2022 and I named it "Active Directory VM" and I am going into its virtual network settings and I am switching the NIC's private IP Address to static which will be 10.1.0.6.
+I created a Windows Server 2022 and I named it "Active Directory VM" I am going into its virtual network settings and I am switching the NIC's private IP Address to static which will be 10.1.0.6.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/4bb6dcc9-4e80-4a9c-936e-f0abbc07029a)
+
+I then used Remote Desktop to log into the Windows Server 2022 virtual machine and disabled the Windows firewall to test the connectivity. 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/5e0235fb-4a06-4afa-9ea7-39063a4cf2a0)
+
+I then set "Azeruser" virtual machine's DNS settings to the Windows Server 2022's private IP address (10.1.0.6) so that they are on the same network and the Windows Server 2022 will act as a domain controller. 
 </p>
 <br />
