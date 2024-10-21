@@ -55,5 +55,14 @@ I then logged into the Windows 10 Pro virtual machine and sent a ping via Powers
 
 From Powershell I ran ipconfig /all and the output for the DNS settings should show DC-1’s private IP Address and I confirmed this with what Powershell showed me.
 
+![image](https://github.com/user-attachments/assets/b62cec29-9d47-4554-ac3a-1443e29faf5f)
+
+I installed Active Directory Domain Services on our Windows 2022 Server and am in now in the process of setting it up as a domain controller named "mydomain.com"
+
+![image](https://github.com/user-attachments/assets/898e491e-b728-4042-9add-f2ff9652700e)
+
+I then made the "Active Directory VM" a domain controller and now will begin to create organizational units.
+
+
 
  
