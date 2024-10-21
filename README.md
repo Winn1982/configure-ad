@@ -61,8 +61,11 @@ I installed Active Directory Domain Services on our Windows 2022 Server and am i
 
 ![image](https://github.com/user-attachments/assets/898e491e-b728-4042-9add-f2ff9652700e)
 
-I then made the "Active Directory VM" a domain controller and now will begin to create organizational units.
+I then made the "Active Directory VM" a domain controller and will now begin creating organizational units.
 
+![image](https://github.com/user-attachments/assets/7d5b0fa2-fdd2-4b05-8883-3112493ccbd4)
+
+In Active Directory, I created two organizational units one is _EMPLOYEES and the other is _ADMINS
 
 
  
