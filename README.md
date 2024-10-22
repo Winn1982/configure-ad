@@ -65,7 +65,24 @@ I then made the "Active Directory VM" a domain controller and will now begin cre
 
 ![image](https://github.com/user-attachments/assets/7d5b0fa2-fdd2-4b05-8883-3112493ccbd4)
 
-In Active Directory, I created two organizational units one is _EMPLOYEES and the other is _ADMINS
+In Active Directory, I created two organizational units one is _EMPLOYEES and the other is _ADMINS.
 
+![image](https://github.com/user-attachments/assets/cc10f512-85e1-433a-b93d-b0c5c2482f35)
 
+I then went into the _ADMINS folder that I created and created a user named Jane Doe; her username is jane_admin.
+
+![image](https://github.com/user-attachments/assets/5c882efe-9a5f-4106-8fc1-0fa1619931bb)
  
+I added "Jane Doe" to the domain admins security group so she would have administrative rights. 
+
+![image](https://github.com/user-attachments/assets/86208927-6557-4e86-9a80-70a3bc4fef84)
+
+We logged back into the Azeruser virtual machine and are going to connect it to the domain controller. First, we right click on the start menu and go to system. Next, we click Rename this PC (advanced) and under Computer Name we click Change. Then click domain and enter mydomain.com as the domain name to use. 
+
+![image](https://github.com/user-attachments/assets/e6b41e98-60c8-482a-afa8-78b0423d20a3)
+
+Since we already changed Azeruser Virtual Machine to use the Active Directory Virtual Machines private IP Address, it is able to locate the domain controller for mydomain.com and therefore this window will pop-up.
+
+![image](https://github.com/user-attachments/assets/af4d2c68-1816-4ffd-a64f-97c8729cf404)
+
+I entered mydomain.com\jane_admin and the password and we see that we have successfully joined "Azeruser" to the "Active Directory Virtual Machine" domain controller. 
