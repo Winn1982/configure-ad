@@ -85,4 +85,13 @@ Since we already changed Azeruser Virtual Machine to use the Active Directory Vi
 
 ![image](https://github.com/user-attachments/assets/af4d2c68-1816-4ffd-a64f-97c8729cf404)
 
-I entered mydomain.com\jane_admin and the password and we see that we have successfully joined "Azeruser" to the "Active Directory Virtual Machine" domain controller. 
+I entered mydomain.com\jane_admin and the password and we see that we have successfully joined "Azeruser" to the "Active Directory Virtual Machine" domain controller. Once we restart Azeruser it will be a part of the domain controller. 
+
+![image](https://github.com/user-attachments/assets/da411397-a359-4f07-854b-4e47ea59f90f)
+
+I then logged into the domain controller and verified that Azeruser is a part of the Active Directory Users and Computers.
+
+![image](https://github.com/user-attachments/assets/0245832c-6aa8-41bc-bc27-43d3cacc5458)
+
+I then created and organizational unit name _CLIENTS and moved Azeruser into it. 
+
