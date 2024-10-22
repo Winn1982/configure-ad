@@ -98,3 +98,7 @@ I then created and organizational unit name _CLIENTS and moved Azeruser into it.
 ![image](https://github.com/user-attachments/assets/c625ad2b-a5bb-405d-b3f0-d94a2869e23b)
 
 I then logged in to the domain controller as jane_admin and allowed domain users to have access to the domain controller. I right-clicked the start menu and went to the system menu and then clicked remote desktop. Once in remote desktop I clicked on select users that can remotely access this pc. I searched for domain users and added them accordingly. 
+
+![image](https://github.com/user-attachments/assets/0feef233-a1a4-4d36-9d97-84278b108d1d)
+
+I then logged in Powershell ISE as an administrator and the lab used a pre-made code through SQL that created 10,000 randomly named users for our Active Directory _EMPLOYEES folder. 
