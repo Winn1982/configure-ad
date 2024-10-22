@@ -106,3 +106,8 @@ I then logged in Powershell ISE as an administrator and the lab used a pre-made 
 ![image](https://github.com/user-attachments/assets/d7b54eef-6d3f-4718-ad35-1cc5da242a48)
 
 I checked in Active Directory _EMPLOYEES folder to ensure that the users were created.
+
+![image](https://github.com/user-attachments/assets/58c9af48-ea81-4440-9b40-f7bffb36bff3)
+
+I picked a random user that was created "wit.top" and I logged into "Azeruser". I went into Powershell and in the command line typed "whoami" to show who the user was.
+
