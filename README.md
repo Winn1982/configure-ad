@@ -102,3 +102,7 @@ I then logged in to the domain controller as jane_admin and allowed domain users
 ![image](https://github.com/user-attachments/assets/0feef233-a1a4-4d36-9d97-84278b108d1d)
 
 I then logged in Powershell ISE as an administrator and the lab used a pre-made code through SQL that created 10,000 randomly named users for our Active Directory _EMPLOYEES folder. 
+
+![image](https://github.com/user-attachments/assets/d7b54eef-6d3f-4718-ad35-1cc5da242a48)
+
+I checked in Active Directory _EMPLOYEES folder to ensure that the users were created.
