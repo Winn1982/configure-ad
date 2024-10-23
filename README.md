@@ -111,3 +111,40 @@ I checked in Active Directory _EMPLOYEES folder to ensure that the users were cr
 
 I picked a random user that was created "wit.top" and I logged into "Azeruser". I went into Powershell and in the command line typed "whoami" to show who the user was.
 
+![image](https://github.com/user-attachments/assets/f9b0da7d-3b54-49c6-9a14-1e742c4915de)
+
+I need to configure our Group Policies first by editing "Default Domain Policy. First, I right-clicked on "Default Domain Policy" and clicked Edit.
+
+![image](https://github.com/user-attachments/assets/552f326b-661d-45f6-bdf3-646385e2e4f2)
+
+It opened the Group Policy Editor, so that I could configure Account Lockout Policy Settings. First I went to Computer Configuration, Windows Settings, Security Settings, Account Policies and then Account Lockout Policy.
+
+![image](https://github.com/user-attachments/assets/ca1cf255-cd16-4d13-84fc-9b9fe00a63a1)
+
+I configured Account Lockout Duration to 30 minutes, Account Lockout Threshold to 3 attempts, and Reset Lockout Counter to 15 minutes. 
+
+![image](https://github.com/user-attachments/assets/9cac62b5-58b8-4d93-8126-33571c68a0a6)
+
+I then had to update the Group Policy, to do this I went into the command prompt and ran gpupdate /force, which updated the policy immediately. 
+
+![image](https://github.com/user-attachments/assets/4f3ca63b-cfd8-4340-a979-0f217c9558f9)
+
+To ensure that I configured the group policy correctly and that the new settings had taken effect, I picked a random user and entered a password wrong several times and I got a lockout message. 
+
+![image](https://github.com/user-attachments/assets/f64c44f0-cd9c-44ca-9664-44c63511252c)
+
+I went into the domain controller and into Active Directory and looked up the user wit.top and we could see that they were indeed locked out of the account. I will reenable his account and log in to see if the account is working. 
+
+![image](https://github.com/user-attachments/assets/9d5216bb-5b23-4931-8105-59bf924295b8)
+
+I was able to log in to wit.top's account, showing that it was unlocked. 
+
+![image](https://github.com/user-attachments/assets/21149dec-d18e-41a2-bef2-ab1f01dde838)
+
+I disabled wit.top's account in Active Directory. I will observe the results of trying to log in and see what error message I receive. 
+
+![image](https://github.com/user-attachments/assets/2ac4c989-1c1a-4566-ac58-149ccb483f9b)
+
+This is the error message I received showing that wit.top was locked out of the account. 
+
+
