@@ -151,6 +151,10 @@ This is the error message I received showing that wit.top was locked out of the 
 
 I enabled his account and it could be logged into again.
 
+![image](https://github.com/user-attachments/assets/56be1a9f-920b-4afa-9f32-31880be32fd9)
+
+I then went into Event Viewer and searched for wit.top and looked through some logs where the computer was attempting to validate his credentials. 
+
 
 
 
