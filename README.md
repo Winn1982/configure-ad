@@ -143,8 +143,16 @@ I was able to log in to wit.top's account, showing that it was unlocked.
 
 I disabled wit.top's account in Active Directory. I will observe the results of trying to log in and see what error message I receive. 
 
-![image](https://github.com/user-attachments/assets/2ac4c989-1c1a-4566-ac58-149ccb483f9b)
+![image](https://github.com/user-attachments/assets/8191f858-778f-4d02-b306-fdfe88f3cf78)
 
 This is the error message I received showing that wit.top was locked out of the account. 
+
+![image](https://github.com/user-attachments/assets/8f852ced-d8dd-446c-b75a-b7406c973859) ![image](https://github.com/user-attachments/assets/399c6b1f-fe0d-4b13-a68c-33454b41fe0e)
+
+I enabled his account and it could be logged into again.
+
+
+
+
 
 
